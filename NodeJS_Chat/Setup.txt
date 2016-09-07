@@ -1,0 +1,42 @@
+1)
+Install xampp
+Install NodeJS
+Install MongoDB
+
+2)
+Setup MongoDB
+
+Create folders as follows
+c
+|_MongoDB
+  |_data
+    |_db
+
+setup socket.io
+
+goto C:\xampp\htdocs\NodeJS_Chat\ in cmd
+
+type npm install socket.io
+ 
+ It will create node_modules folder
+
+type npm install mongodb
+
+3)
+Executing javascript files using nodeJS
+
+ Goto C:\xampp\htdocs\NodeJS_Chat in cmd
+
+ type node server.js
+
+  Executing mongodb server
+
+  Goto C:\MongoDB\bin in cmd
+
+   type mongod.exe --dbpath c:\MongoDB\data\db
+
+   Then open another terminal and goto the C:\MongoDB\bin
+
+    type mongo
+    
+     type use chat
